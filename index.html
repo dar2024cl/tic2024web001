@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by daniela</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+  <meta charset="utf-8" />
+
+  <title>COSTA MEDITERRANEA</title>
+
+</head>
+
+ <body>
+
+  <div class="container">
+
+    <img src="https://img2.rtve.es/imagenes/costas-espana-mediterranea-costa-valencia/1591691673805.jpg" 
+
+         alt="COSTA MEDITERRÁNEA" 
+
+         width="400">
+
+    <center>
+
+      <button    onclick=ocultarSeccion()>ocultar </button>
+
+      <button    onclick=MostrarSeccion()>mostrar </button>
+
+      <button    onclick=cambiarColorFondo()>cambiar color </button>
+
+      <button onmouseover="mostrarFecha()">Mostrar Fecha</button>
+
+<button onmouseover="cambiarColorFondoHover()" onmouseout="restaurarColorFondo()">Cambiar Color Hover</button>
+
+      <button onclick="obtenerUbicacion()">Obtener Ubicación</button>
+
+    </center>
+
+    <div class= bloque1>
+
+    <h1> COSTA MEDITERRÁNEA </h1>
+
+        <section>
+
+      <h2>INTRODUCCIÓN</h2>
+
+      <p>Si lo que quieres son unas vececiones tranquilas con comida variada y exquisita, playas con aguas cristalinas y paisajes preciosos, el Mediterráneo es tu sitio</p>
+
+        </section>
+
+  </div>
+
+  <div class= bloque2>
+
+    <section>
+
+      <h2>OTRA INFORMACIÓN </h2>
+
+      <h3>LUGARES</h3>
+
+      <p>Algunos de los países que tienen estas maravillosas ciudades o pueblos que recorren la costa del mar Mediterráneo son las siguientes</p>
+
+    <ol>
+
+      <li>España</li>
+
+      <li>Italia</li>
+
+      <li>Grecia</li>
+
+    </ol>
+
+    </section>
+
+    <section>
+
+      <h3>ENLACES INFORMACIÓN</h3>
+
+      <p>Durante estas vacaciones puedes hacer diversas actividades, aqui te dejo algunos enlaces de agencias con diversas actividades:</p>
+
+    <ul>
+
+      <li><a href="#">Enlace 1</a></li>
+
+      <li><a href="#">Enlace 2</a>
+
+      </li>
+
+      <li><a href="#">Enlace 3</a></li>
+
+    </ul>
+
+      </div>
+
+    <div id="ubicacion"></div>
+
+  </div>
+
+  <div id="map"></div>
+
+   </div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+    <div class= bloque3>
+
+    <center>
+
+      <button onclick="mostrarMensaje()">créditos</button>
+
+      <p><strong>copyright 2023 </strong></p>      
+
+    </center>
+
+    </div>
+
+  </section>
+
+  </body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
